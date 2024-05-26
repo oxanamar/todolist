@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+h1 {
+  padding-bottom: 1rem;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  color: gray;
+  border-color: lightgray;
+}
+
+button {
+  padding: 0.6rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(25, 163, 71);
+  color: #fff;
+}
+
+button:hover {
+  background-color: rgb(112, 221, 112);
+}
+
+.list {
+  padding-top: 2rem;
+}
+
+.remove {
+  color: gray;
+  text-decoration: line-through;
+}
